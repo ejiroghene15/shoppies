@@ -59,7 +59,7 @@ let Shoppies = () => {
 						/>
 					</div>
 
-					<div className="d-flex mt-5 gap-5 flex-wrap">
+					<div className="row mt-5 gap-5 flex-wrap">
 						<ShoppiesContext.Provider
 							value={{
 								searchVal,
