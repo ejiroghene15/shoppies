@@ -5,7 +5,7 @@ import SearchResults from "./search_results";
 import { nominationStore } from "./store/localstore";
 import MoviesNominated from "./nomination_list";
 
-const API_URL = "http://www.omdbapi.com/?apikey=74bf9c4a";
+const API_URL = "https://www.omdbapi.com/?apikey=74bf9c4a";
 
 let Shoppies = () => {
 	let [searchVal, setSearchVal] = useState();
